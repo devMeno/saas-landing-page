@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/header'
 import { Button } from 'flowbite-react';
 // import { Navbar } from 'flowbite-react';
+import Banner from './components/banner'
 
 function App() {
     const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     return (
         <>
             <Header />
+            <Banner />
         </>
     )
 }
