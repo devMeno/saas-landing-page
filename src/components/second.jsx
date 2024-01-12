@@ -5,41 +5,53 @@ export default function Second() {
      return (
           <>
                <div className="px-32">
-                    <div className="flex space-x-4">
-                         <div className="w-1/2 bg-red-200 p-1.5">
+                    <div className="flex space-x-4 h-96">
+                         <div className="w-1/2 bg-gray-300 p-1.5">
                               <Image
                                    // width={300}
                                    alt="NextUI hero Image"
-                                   src="https://fakeimg.pl/600x400"
+                                   src=""
                                    className="w-full"
                               />
                          </div>
-                         <div className="w-1/2 flex bg-blue-200 space-x-4">
-                              <div className="w-1/2 bg-red-700 p-1.5">
+                         <div className="w-1/2 flex bg-gray-200 space-x-4">
+                              <div className="w-1/2 bg-gray-300 p-1.5">
                                    <Image
                                         // width={300}
                                         alt="NextUI hero Image"
-                                        src="https://fakeimg.pl/600x1000"
+                                        src=""
                                         className="h-full"
                                    />
                               </div>
-                              <div className="w-1/2 bg-red-500 space-y-4 p-1.5">
+                              <div className="w-1/2 bg-gray-200 space-y-4 p-1.5">
                                    <div className="h-2/5 bg-gray-300">
-                                        {/* <Image
+                                        <Image
                                              // width={300}
                                              alt="NextUI hero Image"
-                                             src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
-                                        /> */}
+                                             src=""
+                                        />
                                    </div>
                                    <div className="h-2/5 bg-gray-300">
-                                        {/* <Image
+                                        <Image
                                              // width={300}
                                              alt="NextUI hero Image"
-                                             src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
-                                        /> */}
+                                             src=""
+                                        />
                                    </div>
                               </div>
                          </div>
+                    </div>
+                    <div className="flex justify-between">
+                         <span>
+                              Used by big companies around the world
+                         </span>
+                         <div className="bg-red-500 h-40">
+                              Bonjour les amis
+                         </div>
+                         <div className="bg-red-500 h-40">Bonjour les amis</div>
+                         <div className="bg-red-500 h-40">Bonjour les amis</div>
+                         <div className="bg-red-500 h-40">Bonjour les amis</div>
+                         <div className="bg-red-500 h-40">Bonjour les amis</div>
                     </div>
                </div>
           </>
