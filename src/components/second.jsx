@@ -41,17 +41,25 @@ export default function Second() {
                               </div>
                          </div>
                     </div>
-                    <div className="flex justify-between">
-                         <span>
+                    <div className="flex justify-between my-12">
+                         <span className="text-xl font-semibold flex items-center w-1/5">
                               Used by big companies around the world
                          </span>
+                         <i class="devicon-amazonwebservices-plain-wordmark text-9xl"></i>
+                         <i class="devicon-amazonwebservices-plain-wordmark text-9xl"></i>
+                         <i class="devicon-amazonwebservices-plain-wordmark text-9xl"></i>
+                         <i class="devicon-amazonwebservices-plain-wordmark text-9xl"></i>
+                         {/* <img src="" alt="" />
+                         <img src="" alt="" />
+                         <img src="" alt="" />
+                         <img src="" alt="" />
                          <div className="bg-red-500 h-40">
                               Bonjour les amis
                          </div>
                          <div className="bg-red-500 h-40">Bonjour les amis</div>
                          <div className="bg-red-500 h-40">Bonjour les amis</div>
                          <div className="bg-red-500 h-40">Bonjour les amis</div>
-                         <div className="bg-red-500 h-40">Bonjour les amis</div>
+                         <div className="bg-red-500 h-40">Bonjour les amis</div> */}
                     </div>
                </div>
           </>
